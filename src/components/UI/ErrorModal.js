@@ -19,6 +19,7 @@ const ModelOverlay = (props) => {
     </div>
     <footer className={classes.actions}>
       <Button onClick={props.onConfirm}>OKAY</Button>
+      
     </footer>
   </Card>);
 };
